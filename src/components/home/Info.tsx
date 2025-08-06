@@ -62,10 +62,11 @@ const Info: React.FC = () => {
                                         Contact
                                     </button>
                             </div>
-                            <p className='job-title'>Développeur FullStackJava/Spring/ReactJS/TypeScript</p>
+                            <p className='job-title'>Développeur FullStack Java/Spring & ReactJS/TypeScript</p>
                         </div>
                         <p className='info-description'>
-                            Brief info about you. Passionate developer, tech enthusiast, and lifelong learner.
+                         Je suis Djihadi Ahamdy, ingénieur logiciel passionné par l’innovation technologique, actuellement en poste chez Capgemini en tant que consultant spatial. Fort de plusieurs années d’expérience, j’interviens dans la conception, le développement et l’évolution de solutions logicielles à haute valeur ajoutée, en m’adaptant à des environnements complexes et critiques. Mon approche repose sur la rigueur, la curiosité technologique et une forte capacité d’adaptation.
+                         <br/>💼 Vous avez un projet ambitieux ? Je suis ouvert aux collaborations en freelance pour construire ensemble des solutions robustes, modernes et scalables.
                         </p>
                     <div className='info-location'>
                         <img className='pin-icon' src={pinIcon} alt="Pin Icon" style={{ width: 20, height: 20, marginRight: 8 }} />

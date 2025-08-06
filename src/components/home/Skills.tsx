@@ -1,11 +1,16 @@
 import React from 'react';
 
 const skills = [
-    { name: 'Service-Oriented Architecture (SOA)', level: 'Expert' },
-    { name: 'Microservices', level: 'Advanced' },
+    { name: 'Spring', level: 'Advanced' },
+    { name: 'Java', level: 'Advanced' },
+    { name: 'React.JS', level: 'Advanced' },
+    { name: 'TypeScript', level: 'Advanced' },
+    { name: 'Next.Js', level: 'Advanced' },
+    { name: 'Python', level: 'Advanced' },
+    { name: 'DevOps', level: 'Advanced' },
+    { name: 'AWS', level: 'Advanced' },
     { name: 'API Design', level: 'Advanced' },
-    { name: 'SOAP & REST', level: 'Advanced' },
-    { name: 'Enterprise Integration', level: 'Intermediate' },
+    { name: 'Kubernetes', level: 'Intermediate' },
 ];
 
 const Skills: React.FC = () => (
@@ -14,8 +19,7 @@ const Skills: React.FC = () => (
         <div className='skills-list'>
             {skills.map((skill, index) => (
                 <div className='skill-item' key={index}>
-                    <h3>{skill.name}</h3>
-                    <p>{skill.level}</p>
+                    <span>{skill.name}</span>
                 </div>
             ))}
         </div>

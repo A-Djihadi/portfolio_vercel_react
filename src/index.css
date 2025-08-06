@@ -1,10 +1,10 @@
 :root {
-  --color-main: rgba(255, 255, 255, 0.87);
-  --color-bg: #242424;
-  --color-accent: #07773f;
+  --color-main: #0E0B07;
+  --color-bg: #F9F7F3;
+  --color-accent: #B1CC74;
   --color-accent-hover: #097751;
-  --color-heading: #6d0721;
-  --color-button-bg: #1a1a1a;
+  --color-heading: #003E1F;
+  --color-button-bg: #003E1F;
 
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
